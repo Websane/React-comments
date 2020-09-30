@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  margin: 0;
+  padding: 30px;
+  max-width: 1024px;
+  display: flex;
+}
+
+form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+  height: 150px;
+  resize: none;
+}
+
+form button {
+  width: 130px;
+  height: 40px;
+}
+
+.comments {
+  margin-right: 30px;
+  width: 50%;
+}
+
+.comment {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  border: 3px solid gray;
+}
+
+.comment__button {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+p {
+  padding: 5px;
+}
+
+small {
+  padding: 5px;
+}
+
+p:first-child {
+  color: gray;
+  border-bottom: 1px solid #000;
+}
